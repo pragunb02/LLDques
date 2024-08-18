@@ -1,1 +1,22 @@
-.exe
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore common C++ build artifacts
+*.o
+*.out
+a.out
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Mac system files
+.DS_Store
+
+ParkingMachine
+VendingMachine
